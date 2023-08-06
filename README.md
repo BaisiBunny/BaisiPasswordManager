@@ -1,2 +1,33 @@
 # BaisiPasswordManager
 一个私有化部署的密码记录网站
+
+# 下载
+### GitHub Release
+[链接](https://github.com/BaisiTech/BaisiPasswordManager/releases)
+### 备用下载
+[压缩分包1/2](https://main.download.baisi.tech/BaisiPasswordManager/BaisiPasswordManager.zip)  
+[压缩分包2/2](https://main.download.baisi.tech/BaisiPasswordManager/BaisiPasswordManager.z01)
+
+# 使用
+（可自行创建启动脚本）
+```
+java -jar [你下载的jar文件]
+```
+访问 http://127.0.0.1:38400 即可
+
+# 其他
+### 储存
+使用SQLite储存，在同级目录下生成“BaisiPassword.db”，可自行使用数据库软件查看password表。   
+删除数据库文件即可充值网站。
+
+### 网站密钥
+密钥以cookie形式存储于浏览器中，初次打开会自动生成并添加一条密钥的记录，可根据提示赋予其他浏览器访问权限。  
+密钥存储于相同数据库的user表中，可自行修改。
+
+### 端口
+默认使用38400端口  
+可修改 src/main/resources/application.properties 后自行构建
+
+### 测试环境
+MacOS JDK17
+
