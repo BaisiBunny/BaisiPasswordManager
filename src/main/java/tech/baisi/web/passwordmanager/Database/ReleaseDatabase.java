@@ -3,12 +3,9 @@ package tech.baisi.web.passwordmanager.Database;
 import ch.qos.logback.core.util.FileUtil;
 import org.apache.commons.io.FileUtils;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.system.ApplicationHome;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 
 @Component
