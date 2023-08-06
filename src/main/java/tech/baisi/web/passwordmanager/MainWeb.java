@@ -34,7 +34,8 @@ public class MainWeb {
             //生成key
             String new_key = UUID.randomUUID().toString().trim().replaceAll("-", "");
             keyMapper.updateById(new KeyEntity(0,new_key));
-            passwordMapper.insert(new PasswordEntity("此网页的密钥（点击查看）",new_key,"新的浏览器需访问: [此网站]/setcookie?key=[上面一行密钥] 进行设置。"));
+            passwordMapper.insert(new PasswordEntity("此网页的密钥（点击查看）",new_key,"新的浏览器需访问: [此网站]/setcookie?key=[上面一行密钥] 进行设置"));
+            passwordMapper.insert(new PasswordEntity("第一行始终显示","后面两行需用鼠标/触控查看","完整复制第一行内容输入右边框框可进行删除"));
             cookie_key = new_key;
             system_key = new_key;
             response.addCookie(new Cookie("key",new_key));

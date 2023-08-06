@@ -30,6 +30,9 @@ java -jar [你下载的jar文件]
 可修改 src/main/resources/application.properties 后自行构建。
 Gradle任务 -> Tasks -> build -> bootJar，在/build/libs中输出文件。
 
+### 网络
+无需连接到公网即可使用完整功能。
+
 ### 测试环境
 MacOS JDK17
 
