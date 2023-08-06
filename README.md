@@ -28,6 +28,7 @@ java -jar [你下载的jar文件]
 ### 端口
 默认使用38400端口。  
 可修改 src/main/resources/application.properties 后自行构建。
+Gradle任务 -> Tasks -> build -> bootJar，在/build/libs中输出文件。
 
 ### 测试环境
 MacOS JDK17
