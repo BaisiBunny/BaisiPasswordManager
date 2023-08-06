@@ -26,8 +26,8 @@ java -jar [你下载的jar文件]
 密钥以cookie形式存储于浏览器中，初次打开会自动生成并添加一条密钥的记录，可根据提示赋予其他浏览器访问权限。
 
 ### 端口
-默认使用38400端口  
-可修改 src/main/resources/application.properties 后自行构建
+默认使用38400端口。  
+可修改 src/main/resources/application.properties 后自行构建。
 
 ### 测试环境
 MacOS JDK17
