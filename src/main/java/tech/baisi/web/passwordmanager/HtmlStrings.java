@@ -4,7 +4,7 @@ public class HtmlStrings {
     public static String beforeItem = "<html>\n" +
             "    <head>\n" +
             "        <meta charset=\"UTF-8\">\n" +
-            "        <link rel=\"icon\" href=\"https://main.download.baisi.tech/BaisiImgColor4_SemiBold.ico\">\n" +
+            "        <link rel=\"icon\" href=\"https://main.download.baisi.tech/BaisiPasswordManager/BaisiImgAt_SemiBold.ico\">\n" +
             "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
             "        <title>测试标题</title>\n" +
             "        <style>\n" +
