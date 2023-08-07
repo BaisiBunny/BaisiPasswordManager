@@ -1,6 +1,10 @@
 # BaisiPasswordManager 白肆密码管理器
 一个私有化部署的密码记录网站
 
+# 演示
+![](演示1.png)
+![](演示2.png)
+
 # 下载
 ### GitHub Release
 [链接](https://github.com/BaisiTech/BaisiPasswordManager/releases)
