@@ -7,7 +7,7 @@ public class HtmlStrings {
                     <meta charset="UTF-8">
                     <link rel="icon" href="BaisiImgAt_SemiBold.ico">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>测试标题</title>
+                    <title>白肆密码管理器</title>
                     <style>
                         body{
                             margin: 0;
