@@ -1,4 +1,4 @@
-# BaisiPasswordManager
+# BaisiPasswordManager 白肆密码管理器
 一个私有化部署的密码记录网站
 
 # 下载
